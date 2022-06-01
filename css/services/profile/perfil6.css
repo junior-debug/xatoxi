@@ -1,0 +1,384 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+@import "modalImageProfile.css";
+
+.formContainer {
+   position: absolute;
+   top: 22em;
+   width: 360px;
+   height: 26vh;
+   font-family: Xatoxi Atari;
+}
+
+.formContainera {
+   width: 360px;
+   height: 230px;
+   display: flex;
+   padding: 1em;
+}
+
+.pagina {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   position: absolute;
+   z-index: 4;
+   top: 350px;
+}
+
+.izquierda {
+   margin-left: -25% !important;
+}
+
+.display {
+   display: none;
+}
+
+.l_green {
+   background-color: #61bb46 !important;
+}
+
+.dis {
+   display: none !important;
+}
+
+.block {
+   display: block !important;
+}
+
+.inputForm {
+   background-color: #fdb9277a;
+   height: 2.5em;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 1em;
+   overflow: hidden;
+   width: 100%;
+   font-family: Xatoxi Atari;
+}
+
+.Date {
+   background-color: #fdb9277a;
+   height: 2.5em;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding-left: 0.85em;
+   color: black;
+   font-family: Xatoxi Atari;
+   padding-top: 0.8em;
+}
+
+.options {
+   background-color: #fedc94;
+   border: 1px solid white;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   width: 100%;
+   height: 3.1em;
+   color: black;
+   padding-left: 0.85em;
+   font-family: Xatoxi Atari;
+}
+
+.containerInput {
+   width: 95%;
+}
+
+.containerForm {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: -65px;
+   height: 233px;
+   justify-content: space-between;
+   z-index: 4;
+   left: 10px;
+}
+
+.buttonHexa {
+   position: absolute;
+   top: 211px;
+   left: 157px;
+   border: none;
+   z-index: 5;
+   width: 50px;
+}
+
+.buttonNext {
+   position: absolute;
+   top: 624px;
+   left: 183px;
+   border: none;
+   z-index: 6;
+   position: absolute;
+}
+
+.colum1 .hexa:nth-child(10) .style {
+   background-color: #fdb827;
+}
+
+.colum1 .hexa:nth-child(10) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum2 .hexa:nth-child(2) .style {
+   background-color: #9c9c9c;
+   cursor: pointer;
+}
+
+.colum2 .hexa:nth-child(2) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum2 .hexa:nth-child(3) .style {
+   background-color: #9c9c9c;
+   cursor: pointer;
+}
+
+.colum2 .hexa:nth-child(3) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum3 .hexa:nth-child(7) .style {
+   background-color: #fdb827;
+}
+
+.colum3 .hexa:nth-child(8) .style {
+   background-color: #fdb827;
+   cursor: pointer;
+}
+
+.colum3 {
+   margin-top: 135px;
+}
+
+.colum4 {
+   padding-top: 184px;
+}
+
+.colum5 {
+   margin-top: 135px;
+}
+
+.colum4 .hexa:nth-child(9) .style {
+   background-color: #fdb827;
+}
+
+.colum5 .hexa:nth-child(7) .style {
+   background-color: #fdb827;
+}
+
+.colum5 .hexa:nth-child(8) .style {
+   background-color: #fdb827;
+}
+
+.colum6 .hexa:nth-child(2) .style {
+   background-color: #9c9c9c;
+   cursor: pointer;
+}
+
+.colum6 .hexa:nth-child(2) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum6 .hexa:nth-child(3) .style {
+   background-color: #61bb46;
+}
+
+.colum6 .hexa:nth-child(3) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum7 {
+   width: 46px;
+   height: 96%;
+   margin-top: 27px;
+   padding-top: 22px;
+   font-family: Xatoxi Atari;
+}
+
+.colum7 .hexa:nth-child(10) .style {
+   background-color: #fdb827;
+}
+
+.colum7 .hexa:nth-child(10) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hexa {
+   position: relative;
+   width: 81px;
+}
+
+.yellow {
+   background-color: #fdb827 !important;
+}
+
+.selectFile {
+   display: block;
+}
+
+.selectFileNone {
+   display: none;
+}
+
+.back {
+   position: absolute;
+   z-index: 2;
+   width: 31px;
+   top: 249px;
+   left: 117px;
+}
+
+.img1 {
+   max-width: 175px;
+}
+
+.img2 {
+   max-width: 175px;
+   transform: rotate(-60deg);
+}
+
+.img3 {
+   max-width: 175px;
+   transform: rotate(60deg);
+}
+
+.picture {
+   position: absolute;
+   width: 100px;
+   top: 23px;
+}
+
+.onehexa {
+   width: 62px;
+   height: 108px;
+   position: absolute;
+   left: 10px;
+   overflow: hidden;
+   display: flex !important;
+   justify-content: center !important;
+   align-items: center !important;
+}
+
+.twohexa {
+   position: absolute;
+   width: 62px;
+   height: 108px;
+   left: 10px;
+   top: 0;
+   transform: translate(-50%, -50%);
+   transform: rotate(60deg);
+   overflow: hidden;
+   display: flex !important;
+   justify-content: center !important;
+   align-items: center !important;
+}
+
+.threehexa {
+   position: absolute;
+   width: 62px;
+   height: 108px;
+   left: 10px;
+   top: 0;
+   transform: translate(-50%, -50%);
+   transform: rotate(300deg);
+   overflow: hidden;
+   display: flex !important;
+   justify-content: center !important;
+   align-items: center !important;
+}
+
+.containerButton {
+   position: absolute;
+   width: 50px;
+   background: none;
+   color: inherit;
+   border: none;
+   padding: 0;
+   font: inherit;
+   cursor: pointer;
+   outline: inherit;
+   top: -25px;
+   left: -29px;
+}
+
+.ok {
+   width: 50px;
+   position: absolute;
+   left: -4px;
+}
+
+.dateCaducate {
+   position: absolute;
+   font-size: 13px;
+   top: 126px;
+   left: 188px;
+   font-family: "Xatoxi Atari";
+   color: black;
+}
+
+.dateCaducate:nth-child(1) {
+   left: 18px;
+}
+
+#issuancePlaceLabel{
+   position: absolute;
+   font-size: 13px;
+   top: 187px;
+   left: 19px;
+   font-family: "Xatoxi Atari";
+   color: black;
+}
+
+.dateOpcion {
+   padding-top: 0.8em;
+   width: 168px;
+}
+
+.upload {
+   position: absolute;
+   top: 180px;
+   left: 315px;
+   width: 20px;
+}
+
+div#info {
+   position: absolute;
+   top: 220;
+}
+
+#docIdentidadLabel {
+   position: absolute;
+   left: 15px;
+   top: 74px;
+   font-family: "Xatoxi Atari";
+}
+#documentTypeLabel {
+   position: absolute;
+   left: 18px;
+   top: 1px;
+   font-family: "Xatoxi Atari";
+}
+#documentoLabel {
+   position: absolute;
+   left: 18px;
+   top: 180px;
+   font-family: "Xatoxi Atari";
+}

@@ -1,0 +1,128 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+
+.dis {
+   display: none !important;
+}
+
+.colum1 :nth-child(10) .style {
+   background-color: #963d97;
+}
+
+.colum7 :nth-child(10) .style {
+   background-color: #963d97;
+}
+
+.reportContainer {
+   display: flex;
+   width: 324px;
+   height: 60px;
+   border: 1px solid black;
+   border-radius: 8px;
+   margin-bottom: 9px;
+   z-index: 4;
+}
+
+.date {
+   display: flex;
+   top: 11px;
+   left: 16px;
+   font-size: 12px;
+   font-family: Xatoxi Atari;
+}
+
+.time {
+   display: flex;
+   top: 11px;
+   right: 245px;
+   font-size: 12px;
+   font-family: Xatoxi Atari;
+}
+
+.operation {
+   display: flex;
+   top: 2px;
+   left: 115px;
+   font-size: 18px;
+   font-family: Xatoxi Atari;
+}
+
+.numberOperation {
+   display: flex;
+   top: 22px;
+   left: 116px;
+   font-size: 15px;
+   font-family: Xatoxi Atari;
+   color: gray;
+}
+
+.ziro {
+   display: flex;
+   top: 2px;
+   left: 330px;
+   font-size: 18px;
+   font-family: Xatoxi Atari;
+   z-index: 4;
+}
+
+.confirmation {
+   display: flex;
+   top: 22px;
+   right: 10px;
+   font-size: 14px;
+   font-family: Xatoxi Atari;
+   z-index: 4;
+   color: gray;
+}
+
+.topblock {
+   top: 80px;
+}
+
+.block {
+   height: 420px;
+}
+
+.cntList {
+   height: 505px;
+   position: absolute;
+   left: 5px;
+   width: 340px;
+   overflow-x: hidden;
+   padding-right: 0px;
+}
+
+.cntListChild {
+   height: 505px;
+   position: absolute;
+   top: 0px;
+   left: 14px;
+   width: 345px;
+   overflow-x: hidden;
+   padding-right: 0px;
+   z-index: 3;
+}
+
+.leftContainer {
+   display: flex;
+   padding-top: 10px;
+   padding-left: 10px;
+   width: 98px;
+   justify-content: space-between;
+}
+
+.centerContainer {
+   display: flex;
+   flex-direction: column;
+   padding-left: 10px;
+   width: 180px;
+}
+
+.rightContainer {
+   display: flex;
+   flex-direction: column;
+   padding-left: 20px;
+   width: 47px;
+}

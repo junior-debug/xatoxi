@@ -1,0 +1,179 @@
+@import "../../components/main.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+@import "../../components/colors.css";
+@import "../../components/boxeslist.css";
+
+.BTC {
+   position: absolute;
+   font-family: "Xatoxi Atari";
+   font-size: 35px;
+   color: white;
+   top: 200px;
+   left: 140px;
+   z-index: 3;
+}
+
+.colum1 :nth-child(1) .style {
+   background-color: #009ddc;
+}
+
+.colum1 :nth-child(2) .style {
+   background-color: #963d97;
+}
+
+.colum1 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.colum2 :nth-child(1) .style {
+   background-color: #009ddc;
+}
+
+.colum2 :nth-child(2) .style {
+   background-color: #963d97;
+}
+
+.colum3 :nth-child(2) .style {
+   background-color: #61bb46;
+}
+
+.colum3 :nth-child(3) .style {
+   background-color: #61bb46;
+}
+
+.colum3 :nth-child(5) .style {
+   background-color: #fdb827;
+}
+
+.colum3 :nth-child(6) .style {
+   background-color: #fdb827;
+}
+
+.five::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "5";
+   font-family: "Xatoxi Atari";
+}
+
+.colum3 :nth-child(8) .style {
+   background-color: #009ddc;
+}
+
+.fifteen::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "15";
+   font-family: "Xatoxi Atari";
+}
+
+.colum3 :nth-child(9) .style {
+   background-color: #009ddc;
+}
+
+.colum4 :nth-child(2) .style {
+   background-color: #61bb46;
+}
+
+.colum4 :nth-child(3) .style {
+   background-color: #61bb46;
+}
+
+.colum4 :nth-child(4) .style {
+   background-color: #61bb46;
+}
+
+.colum4 :nth-child(5) .style {
+   background-color: #fdb827;
+}
+
+.colum4 :nth-child(6) .style {
+   background-color: #fdb827;
+}
+
+.otc::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "OTC";
+   font-family: Xatoxi Atari;
+}
+
+.colum4 :nth-child(7) .style {
+   background-color: #fdb827;
+}
+
+.colum4 :nth-child(8) .style {
+   background-color: #009ddc;
+}
+
+.colum4 :nth-child(9) .style {
+   background-color: #009ddc;
+}
+
+.colum4 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.colum5 :nth-child(2) .style {
+   background-color: #61bb46;
+}
+
+.colum5 :nth-child(3) .style {
+   background-color: #61bb46;
+}
+
+.colum5 :nth-child(5) .style {
+   background-color: #fdb827;
+}
+
+.colum5 :nth-child(6) .style {
+   background-color: #fdb827;
+}
+
+.sixteen::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "16";
+   font-family: Xatoxi Atari;
+}
+
+.colum5 :nth-child(8) .style {
+   background-color: #009ddc;
+}
+
+.colum5 :nth-child(9) .style {
+   background-color: #009ddc;
+}
+
+.twenty_four::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "24";
+   font-family: Xatoxi Atari;
+}
+
+.colum6 :nth-child(1) .style {
+   background-color: #009ddc;
+}
+
+.colum6 :nth-child(2) .style {
+   background-color: #963d97;
+}
+
+.colum7 :nth-child(1) .style {
+   background-color: #009ddc;
+}
+
+.colum7 :nth-child(2) .style {
+   background-color: #963d97;
+}
+
+.colum7 :nth-child(10) .style {
+   background-color: #009ddc;
+}

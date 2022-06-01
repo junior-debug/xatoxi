@@ -1,0 +1,105 @@
+.cntList {
+  height: 345px;
+  position: absolute;
+  top: 200px;
+  left: 5px;
+  width: 340px;
+  overflow-x: hidden;
+  padding-right: 0px;
+}
+.block {
+  height: 400px !important;
+}
+.topblock {
+  top: 155px !important;
+}
+.cntListChild {
+  height: 345px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 345px;
+  overflow-x: hidden;
+  padding-right: 0px;
+}
+.innerBox {
+  position: relative;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  display: inline-flex;
+}
+.box-left {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  font-weight: 600;
+  font-family: "Xatoxi Atari";
+  font-size: 17px;
+  padding-top: 9px;
+}
+.box-right {
+  position: relative;
+  width: 160px;
+  margin-left: 5px;
+  height: 100px;
+  font-family: "Xatoxi Atari";
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+}
+.box-block-left {
+  position: relative;
+  width: 150px;
+  height: 70px;
+  font-weight: 600;
+  font-family: "Xatoxi Atari";
+  font-size: 20px;
+  line-height: 22px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.box-block-right {
+  position: relative;
+  width: 80px;
+  margin-left: 80px;
+  height: 70px;
+  font-family: "Xatoxi Atari";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+.titleList {
+  position: absolute;
+  top: 100px;
+  width: 300px;
+  height: 50px;
+  left: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Xatoxi Atari";
+  font-size: 25px;
+  line-height: 30px;
+}
+.firstlin {
+  text-align: right;
+  position: relative;
+  width: 80px;
+  height: 28px;
+  margin-bottom: 0px;
+  line-height: 30px;
+}
+.block-box {
+  width: 100% !important;
+  text-align: center !important;
+  height: 50px !important;
+}
+.handCursor {
+  cursor: pointer;
+}

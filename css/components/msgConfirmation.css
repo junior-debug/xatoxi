@@ -1,0 +1,96 @@
+@import "main.css";
+@import "hexagons.css";
+@import "font.css";
+@import "xatoxiTitle.css";
+
+.div_cont {
+   font-family: Xatoxi Atari;
+   position: absolute;
+   z-index: 4;
+   top: 150px;
+   left: 65px;
+}
+
+.text {
+   font-size: 17px;
+   text-align: center;
+   color: white;
+}
+
+.container {
+   position: absolute;
+   width: 60px;
+   top: 25px;
+   right: 20px;
+}
+
+.robot_azul {
+   position: absolute;
+   z-index: 4;
+   width: 65%;
+   top: 320px;
+   right: 65px;
+}
+
+.nub_az {
+   position: absolute;
+   z-index: 4;
+   width: 90%;
+   top: 50px;
+   right: 16px;
+}
+
+.no::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "NO";
+   font-family: Xatoxi Atari;
+}
+
+.si::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "SI";
+   font-family: Xatoxi Atari;
+}
+
+.colum4 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.colum4 .hexa:nth-child(10) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.otpDiv {
+   width: 100px;
+   height: 25px;
+   border: 2px solid #000;
+   border-radius: 5px;
+   text-align: center;
+   background-color: grey;
+}
+
+header h2 {
+   margin: 0 0;
+   font-size: 30px;
+   letter-spacing: 5px;
+   display: flex;
+}
+
+header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   background-color: #100f29;
+   color: #fff;
+   font-family: Xatoxi Atari;
+   position: absolute;
+   z-index: 1;
+}

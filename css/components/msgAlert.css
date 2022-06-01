@@ -1,0 +1,100 @@
+@import "main.css";
+@import "hexagons.css";
+@import "font.css";
+@import "xatoxiTitle.css";
+
+#blockScroll{
+   width: 20px;
+   position: absolute;
+   height: 106px;
+   left: 307px;
+   top: 100px;
+   background-color: #ffb900;
+   z-index: 5;
+}
+
+.div_cont {
+   font-family: Xatoxi Atari;
+   position: absolute;
+   z-index: 4;
+   top: 100px;
+   width: 292px;
+   height: 106px;
+   overflow-x: hidden;
+   overflow-y: scroll;
+   left: 35px;
+}
+
+.text {
+   font-size: 17px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+   padding-left: 10px;
+}
+
+.robot_azul {
+   position: absolute;
+   z-index: 4;
+   width: 65%;
+   top: 281px;
+   right: 65px;
+}
+
+.nub_az {
+   position: absolute;
+   z-index: 4;
+   width: 90%;
+   top: 14px;
+   right: 16px;
+}
+
+.colum3 :nth-child(9) .style {
+   background-color: #fdb827;
+}
+
+.colum3 :nth-child(10) .style {
+   background-color: #fdb827;
+}
+
+.colum3 .hexa:nth-child(9) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum4 :nth-child(10) .style {
+   background-color: #fdb827;
+}
+
+.colum5 :nth-child(9) .style {
+   background-color: #fdb827;
+}
+
+.colum5 :nth-child(10) .style {
+   background-color: #fdb827;
+}
+
+header h2 {
+   margin: 0 0;
+   font-size: 30px;
+   letter-spacing: 5px;
+   display: flex;
+}
+
+header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   background-color: #100f29;
+   color: #fff;
+   font-family: Xatoxi Atari;
+   position: absolute;
+   z-index: 1;
+}
+
+

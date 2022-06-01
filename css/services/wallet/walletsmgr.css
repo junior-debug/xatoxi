@@ -1,0 +1,251 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/buttons.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+@import "elevator.css";
+
+#walletCoinName {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0px;
+   position: absolute;
+   width: 100%;
+   height: 50px;
+   top: 35px;
+   z-index: 1;
+   padding-top: 11px;
+}
+#walletCoinName h1 {
+   font-size: 23px;
+   font-family: "Xatoxi Atari";
+   color: white;
+}
+
+.icon {
+   height: 20px;
+   width: 20px;
+}
+
+.imgToWhite {
+   filter: brightness(0) invert(1);
+}
+
+.handCursor {
+   cursor: pointer;
+}
+
+.formWallet {
+   position: absolute;
+   top: 54px;
+   left: 0px;
+   width: 360px;
+}
+
+.font {
+   font-family: "Xatoxi Atari";
+   color: white;
+   font-weight: 600;
+   font-size: 24px;
+}
+
+.colum1 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.colum3 :nth-child(2) .style {
+   background-color: #61bb46;
+}
+.colum3 :nth-child(3) .style {
+   background-color: #61bb46;
+}
+
+.colum3 :nth-child(5) .style {
+   background-color: #fdb827;
+}
+
+.colum3 :nth-child(8) .style {
+   background-color: #009ddc;
+}
+.colum3 :nth-child(9) .style {
+   background-color: #009ddc;
+}
+
+.colum4 :nth-child(2) .style {
+   background-color: #61bb46;
+}
+.colum4 :nth-child(3) .style {
+   background-color: #61bb46;
+}
+.colum4 :nth-child(4) .style {
+   background-color: #61bb46;
+}
+
+.colum4 :nth-child(5) .style {
+   background-color: #fdb827;
+}
+.colum4 :nth-child(6) .style {
+   background-color: #fdb827;
+}
+.colum4 :nth-child(7) .style {
+   background-color: #fdb827;
+}
+
+.colum4 :nth-child(8) .style {
+   background-color: #009ddc;
+}
+.colum4 :nth-child(9) .style {
+   background-color: #009ddc;
+}
+.colum4 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.colum5 :nth-child(2) .style {
+   background-color: #61bb46;
+}
+.colum5 :nth-child(3) .style {
+   background-color: #61bb46;
+}
+
+.colum5 :nth-child(5) .style {
+   background-color: #fdb827;
+}
+
+.colum5 :nth-child(8) .style {
+   background-color: #009ddc;
+}
+.colum5 :nth-child(9) .style {
+   background-color: #009ddc;
+}
+
+.colum7 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.hexa-sellTot {
+   position: relative;
+   top: 316px;
+   width: 81px;
+   left: 93px;
+   display: inline-block;
+}
+
+.hexa-buyTot {
+   position: relative;
+   top: 317px;
+   width: 81px;
+   left: 99px;
+   display: inline-block;
+}
+.hexa-icoWalletDetail {
+   position: absolute;
+   top: 74px;
+   width: 81px;
+   left: 138px;
+   display: inline-block;
+}
+.labelBalWalDet {
+   position: absolute;
+   top: 137px;
+   width: 124px;
+   left: 118px;
+   text-align: center;
+   display: inline-block;
+}
+
+.hexa-addWalletOff,
+.hexa-addWallet {
+   position: absolute;
+   display: inline-block;
+   width: 81px;
+}
+
+/* Modal Add Wallet */
+.wallets {
+   display: none;
+   position: absolute;
+   left: 10%;
+   z-index: 4;
+   top: 80px;
+   width: 280px;
+}
+.modal-body {
+   /*padding: 1rem 0;*/
+}
+.modal-header-blue {
+   padding: 7px 7px;
+   background-color: #009ddc;
+   display: flex;
+   align-items: center;
+}
+.closeModal {
+   width: 7%;
+   height: 100%;
+}
+#formAddWallet {
+   height: 440px;
+}
+.newWallet {
+   color: white;
+   text-align: center;
+   width: 93%;
+   border: none;
+   font-family: "Xatoxi Atari";
+   font-size: 20px;
+   margin: 0px 0px;
+   padding-left: 17px;
+}
+.inputWalletDetails {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Xatoxi Atari";
+   flex-direction: column;
+   margin-top: 140px;
+}
+.modalactive {
+   display: block;
+   position: absolute;
+   left: 10%;
+   z-index: 5;
+   top: 80px;
+   width: 280px;
+}
+.options {
+   border: 1px solid white !important;
+   height: 35px !important;
+   color: rgba(0, 0, 0, 0.548);
+   padding-left: 0.85em;
+   width: 134%;
+}
+#addressWallet {
+   width: 134%;
+   margin-top: 10px;
+   height: 50px;
+   font-family: "Xatoxi Atari";
+   background-color: #009ddc;
+   padding-left: 15px;
+   border: none;
+   outline: none;
+   color: rgba(0, 0, 0, 0.548);
+   border: 1px solid white !important;
+   
+}
+#addressWallet::placeholder {
+   color: rgba(0, 0, 0, 0.548);
+}
+.hexa-addWalletBtn {
+   position: absolute;
+   top: 365px;
+   width: 81px;
+   left: 103px;
+   display: inline-block;
+}
+
+#addressWalletLabel{
+   position: absolute;
+   left: 20px;
+   top: 213px;
+}

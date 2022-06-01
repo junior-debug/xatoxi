@@ -1,0 +1,588 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+@import "../../components/modalSumaryOp.css";
+
+.grayBackground {
+  background-color: #9c9c9c !important;
+}
+
+.purpleBackground {
+  background-color: #963d97 !important;
+}
+
+.white {
+  background-color: white !important;
+}
+
+.dis {
+  display: none !important;
+}
+
+.izquierda {
+  margin-left: -50% !important;
+}
+
+.containerinputPurpleBeneficiary {
+  width: 109%;
+  display: flex;
+  padding-left: 7%;
+  padding-right: 7%;
+  align-items: center;
+}
+
+.formContainer {
+  position: absolute;
+  width: 360px;
+  font-family: Xatoxi Atari;
+  z-index: 4;
+  top: 230px;
+  height: 250px;
+  display: flex;
+}
+
+.pagina {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pagina:nth-child(2) {
+  height: 180px;
+}
+
+.inputForm {
+  background-color: #953d97a1 !important;
+  height: 50px !important;
+  border: 1px solid white;
+  padding: 1em;
+  width: 100% !important;
+  padding-left: 20px !important;
+}
+
+.optionsPurple {
+  background-color: #cc9ecc;
+  border: 1px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 56px;
+  color: black;
+  padding-left: 0.85em;
+  font-family: "Xatoxi Atari";
+}
+
+.colum1 :nth-child(10) .style {
+  background-color: #963d97 !important;
+}
+
+.colum3 :nth-child(9) .style {
+  background-color: #963d97;
+}
+
+.colum3 :nth-child(11) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(12) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(13) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(14) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(15) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(16) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 .hexa:nth-child(1) .three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.I::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "I";
+}
+
+.II::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "II";
+}
+
+.III::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "III";
+}
+
+.IV::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "IV";
+}
+
+.V::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "V";
+}
+
+.VI::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "VI";
+}
+
+.VII::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "VII";
+}
+
+.colum3 :nth-child(10) .style {
+  background-color: #963d97 !important;
+}
+
+.colum4 :nth-child(10) .style {
+  background-color: #963d97;
+}
+
+.colum5 :nth-child(9) .style {
+  background-color: #963d97;
+}
+
+.colum5 :nth-child(10) .style {
+  background-color: #963d97 !important;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(11) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(12) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(13) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(14) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(15) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(16) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(17) .style {
+  background-color: #963d97;
+}
+
+.colum7 :nth-child(10) .style {
+  background-color: #963d97 !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0em;
+  padding-left: 0em;
+  width: 95%;
+}
+.container input {
+  width: 80%;
+}
+
+.inside_right {
+  background-color: #cc9ecc;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.inside_left {
+  background-color: #cc9ecc;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.containerinputPurple {
+  width: 95%;
+}
+
+.containerformPurple {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: -19px;
+  height: 266px;
+  justify-content: space-between;
+}
+
+.optionsPurple {
+  background-color: #cc9ecc;
+  border: 1px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 56px;
+  color: black;
+  padding-left: 0.85em;
+  font-family: "Xatoxi Atari";
+}
+
+.sendButton {
+  position: absolute;
+  top: 345;
+  left: 170;
+  cursor: pointer;
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#buttonSubmit {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 345px;
+  left: 170px;
+  z-index: -1;
+}
+
+#penAction,
+#docAction,
+.labelFile,
+.buyotclist,
+.sellotclist,
+.buysellotc,
+.handCursor {
+  cursor: pointer;
+}
+
+#uploadDoc {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  left: 0px;
+  height: 20px;
+}
+
+#actionDoc {
+  position: absolute;
+  left: 315px;
+  top: 512px;
+  z-index: 10;
+}
+.requiredOff {
+  position: absolute;
+  width: 360px;
+  top: 482px;
+  z-index: 10;
+}
+.requiredOn {
+  position: absolute;
+  width: 300px;
+  top: 482px;
+  z-index: 10;
+}
+.selDoc {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 95%;
+  outline: none;
+}
+
+.options {
+  border: 1px solid white !important;
+  height: 35px !important;
+  color: rgba(0, 0, 0, 0.548);
+  padding-left: 0.85em;
+  border-radius: 5px !important;
+}
+
+.off {
+  display: none;
+}
+
+.on {
+  display: block;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.okButton {
+  border: none;
+  width: 38px;
+  height: 38px;
+  background-color: #963d97;
+  top: 339px;
+  position: absolute;
+  left: 160px;
+  color: white;
+  border-radius: 5px;
+}
+
+#montoLabel,
+#routingLabel,
+#segundoNombre_1Label,
+#email_1Label,
+#cuentaInter_1Label,
+#primerApellido_2Label,
+#telefono_2Label,
+#direccionBanco_2Label,
+#paisBanco_1Label,
+#paisInter_2Label,
+#documentoIdentidad_3Label,
+#segundoApellido_3Label,
+#bancoBeneficiario_3Label,
+#aba_3Label,
+#direccionInter_3Label,
+#fVenMesLabel,
+#primerNombre_4Label,
+#direccion_4Label,
+#ctaBeneficiario_4Label,
+#bancoInter_4Label,
+#primerNombre_5Label,
+#direccion_5Label,
+#ctaBeneficiario_5Label,
+#bancoInter_5Label,
+#abaInter_5Label,
+#transBeneficiario_2Label {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#ciudadInter_2Label,
+#ciudadBanco_1Label,
+#fVenAnioLabel {
+  position: absolute;
+  top: 16px;
+  left: 197px;
+  font-family: "Xatoxi Atari";
+}
+
+#primerApellido_1Label,
+#telefono_1Label,
+#documentoIdentidad_2Label,
+#segundoApellido_2Label,
+#bancoBeneficiario_2Label,
+#aba_2Label,
+#direccionInter_2Label,
+#paisInter_1Label,
+#aba_2Label,
+#primerNombre_3Label,
+#direccion_3Label,
+#ctaBeneficiario_3Label,
+#bancoInter_3Label,
+#segundoNombre_4Label,
+#email_4Label,
+#paisBanco_4Label,
+#paisInter_4Label,
+#segundoNombre_5Label,
+#email_5Label,
+#paisBanco_5Label,
+#cuentaInter_5Label,
+#countryLabel,
+#direccionBanco_1Label {
+  position: absolute;
+  top: 87px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.codigoValidacionLabel01 {
+  position: absolute;
+  top: 87px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.codigoValidacionLabel02 {
+  position: absolute;
+  top: 120px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.transBeneficiario_1Label01 {
+  position: absolute;
+  top: 87px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.transBeneficiario_1Label02 {
+  position: absolute;
+  top: 227px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+
+#ciudadInter_1Label,
+#ciudadBanco_4Label,
+#ciudadInter_4Label,
+#ciudadBanco_5Label {
+  position: absolute;
+  top: 87px;
+  left: 197px;
+  font-family: "Xatoxi Atari";
+}
+
+#banco_1Label,
+#documentoIdentidad_1Label,
+#segundoApellido_1Label,
+#bancoBeneficiario_1Label,
+#primerNombre_2Label,
+#direccion_2Label,
+#ctaBeneficiario_2Label,
+#bancoInter_2Label,
+#abaInter_2Label,
+#direccionInter_1Label,
+#aba_1Label,
+#referencia_2Label,
+#segundoNombre_3Label,
+#email_3Label,
+#cuentaInter_3Label,
+#paisBanco_3Label,
+#transNumerotarjetaLabel,
+#primerApellido_4Label,
+#telefono_4Label,
+#direccionBanco_4Label,
+#direccionInter_4Label,
+#primerApellido_5Label,
+#telefono_5Label,
+#direccionBanco_5Label,
+#paisInter_5Label,
+#coinLabel,
+#transCtaReceptoraLabel {
+  position: absolute;
+  top: 156px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.transBeneficiario_5Label01,
+.transBeneficiario_4Label01 {
+  position: absolute;
+  top: 156px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.transBeneficiario_5Label02,
+.transBeneficiario_4Label02 {
+  position: absolute;
+  top: 227px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#ciudadBanco_3Label,
+#ciudadInter_5Label {
+  position: absolute;
+  top: 156px;
+  left: 197px;
+  font-family: "Xatoxi Atari";
+}
+
+#cuenta_1Label,
+#primerNombre_1Label,
+#direccion_1Label,
+#ctaBeneficiario_1Label,
+#bancoInter_1Label,
+#referencia_1Label,
+#segundoNombre_2Label,
+#email_2Label,
+#abaInter_1Label,
+#paisBanco_2Label,
+#cuentaInter_2Label,
+#abaInter_2Label,
+#primerApellido_3Label,
+#telefono_3Label,
+#direccionBanco_3Label,
+#paisInter_3Label,
+#abaInter_3Label,
+#documentoIdentidad_4Label,
+#segundoApellido_4Label,
+#bancoBeneficiario_4Label,
+#aba_4Label,
+#abaInter_4Label,
+#segundoApellido_5Label,
+#bancoBeneficiario_5Label,
+#aba_5Label,
+#direccionInter_5Label,
+#documentoIdentidad_5Label,
+#idPayLabel,
+#transBeneficiario_3Label,
+#transTipoTarjetaLabel {
+  left: 24px;
+  position: absolute;
+  top: 227px;
+  font-family: "Xatoxi Atari";
+}
+#ciudadBanco_2Label,
+#ciudadInter_3Label {
+  left: 197px;
+  position: absolute;
+  top: 227px;
+  font-family: "Xatoxi Atari";
+}
+
+#direccionInter_2Label {
+  left: 24px;
+  position: absolute;
+  top: 117px;
+  font-family: "Xatoxi Atari";
+}
+#docListPenLabel {
+  position: absolute;
+  top: 27px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}

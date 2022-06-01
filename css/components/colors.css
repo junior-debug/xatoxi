@@ -1,0 +1,85 @@
+.blackImg {
+   filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7500%)
+      hue-rotate(224deg) brightness(94%) contrast(107%);
+}
+/* COLORES DE LA APP */
+.grey {
+   background-color: #9c9c9c;
+}
+.green {
+   background-color: #61bb46;
+}
+.red {
+   background-color: #e03a3e;
+}
+.red-font {
+   color: #e03a3e;
+}
+.yellow {
+   background-color: #fdb827;
+}
+.blue {
+   background-color: #009ddc;
+}
+.ico-blue {
+   filter: invert(62%) sepia(45%) saturate(6196%) hue-rotate(165deg)
+      brightness(91%) contrast(101%);
+}
+.ico-purple {
+   filter: invert(29%) sepia(29%) saturate(2951%) hue-rotate(267deg)
+      brightness(91%) contrast(84%);
+}
+.orange {
+   background-color: #f5821f;
+}
+.purple {
+   background-color: #963d97;
+}
+.gray {
+   background-color: #9c9c9c;
+}
+.gray-font {
+   color: #9c9c9c;
+}
+.gray-border {
+   border-color: #9c9c9c !important;
+}
+/* REGISTRO */
+.dark-blue {
+   background-color: #100f29;
+}
+.light-blue {
+   background-color: #4b4a5d;
+}
+/* CAMPOS DE SERVICIOS */
+.light-purple {
+   color: #cc9ecc;
+}
+.ico-light-purple {
+   filter: invert(94%) sepia(62%) saturate(6447%) hue-rotate(203deg)
+      brightness(85%) contrast(86%);
+}
+.light-blue-wallet {
+   background-color: #7ab9d6;
+}
+.light-blue-block {
+   background-color: #7ab9d6;
+}
+.light-yellow {
+   background-color: #fedc94;
+}
+.light-orange {
+   color: #fac08e;
+}
+.light-green {
+   background-color: #88cc75;
+}
+.light-red {
+   color: #e86b6f;
+}
+.light-gray {
+   background-color: #e0e0e0;
+}
+.white-font {
+   color: white;
+}

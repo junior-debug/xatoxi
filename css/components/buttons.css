@@ -1,0 +1,117 @@
+.btn {
+   text-decoration: none;
+   color: #fff;
+   background-color: var(--primary);
+   text-align: center;
+   letter-spacing: 0.5px;
+   transition: transform 0.2s ease-out;
+   cursor: pointer;
+   font-size: 14px;
+   outline: 0;
+   border: none;
+   border-radius: 2px;
+   display: inline-block;
+   height: 36px;
+   line-height: 36px;
+   padding: 0 16px;
+   /* text-transform: uppercase; */
+   vertical-align: middle;
+   -webkit-tap-highlight-color: transparent;
+   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+      0 1px 5px 0 rgb(0 0 0 / 20%);
+   position: relative;
+}
+.btn-primary {
+   color: #fff;
+   background-color: var(--primary);
+}
+.btn.btn-danger {
+   background-color: var(--colorred);
+}
+.btn-large {
+   height: 54px;
+   line-height: 54px;
+   font-size: 15px;
+   padding: 0 28px;
+}
+.btn-small {
+   height: 32.4px;
+   line-height: 32.4px;
+   font-size: 13px;
+}
+.btn:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+   transform: translateY(0);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-semirounded {
+   border-radius: 15px;
+}
+.btn-opc {
+   box-shadow: 2px 2px 2px #999;
+   border-radius: 10px;
+   height: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.btn-opc:hover {
+   background-color: #fff;
+}
+.btn-contacts,
+.btn-search {
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   padding-left: 15px;
+}
+.btn-contacts figure,
+.btn-search figure {
+   height: 25px;
+   width: 25px;
+}
+.disabled {
+   pointer-events: none;
+   background-color: #dfdfdf !important;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   color: #9f9f9f !important;
+   cursor: default;
+}
+.btn-custom {
+   padding: 0;
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+}
+.btn-custom img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+button.btn[disabled] {
+   color: rgba(0, 0, 0, 0.26);
+   box-shadow: none;
+   background-color: rgba(0, 0, 0, 0.12);
+   cursor: default;
+   pointer-events: none;
+}
+a:not([href]):not([tabindex]) {
+   color: white;
+}
+.card-b-custom {
+   font-size: 14px;
+   text-align: center;
+   padding: 2px;
+   line-height: 18px;
+   /* background-color: #28a745;
+    color: white; */
+}

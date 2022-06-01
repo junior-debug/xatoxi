@@ -1,0 +1,449 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/font.css";
+@import "../../components/hexagons.css";
+
+.dis {
+   display: none !important;
+}
+
+.purpleColor {
+   background-color: #963d97;
+}
+
+.formContainer {
+   position: absolute;
+   width: 360px;
+   font-family: Xatoxi Atari;
+   z-index: 4;
+   top: 220px;
+   height: 266px;
+}
+
+.pagina {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.new_color {
+   background-color: white !important;
+}
+
+.pagina:nth-child(2) {
+   justify-content: flex-start;
+}
+
+.inputForm {
+   background-color: #953d97a1 !important;
+   height: 50px !important;
+   border: 1px solid white;
+   padding: 1em;
+   width: 97% !important;
+   padding-left: 20px !important;
+}
+
+.options {
+   background-color: #953d97a1 !important;
+   border: 1px solid white !important;
+   height: 50px !important;
+   color: rgba(0, 0, 0, 0.548);
+   padding-left: 0.85em;
+   width: 100%;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+
+.colum1 :nth-child(10) .style {
+   background-color: #963d97 !important;
+}
+
+.colum3 :nth-child(1) .style {
+   background-color: white !important;
+}
+
+.colum3 :nth-child(9) .style {
+   background-color: #963d97;
+}
+
+.colum3 :nth-child(11) .style {
+   background-color: #963d97;
+   cursor: pointer;
+}
+
+.colum3 .hexa:nth-child(1) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.I::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "I";
+}
+
+.colum3 :nth-child(10) .style {
+   background-color: #963d97 !important;
+}
+
+.colum5 :nth-child(1) .style {
+   background-color: white !important;
+}
+
+.colum5 .hexa:nth-child(1) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum5 :nth-child(9) .style {
+   background-color: #963d97;
+}
+
+.colum5 :nth-child(10) .style {
+   background-color: #963d97 !important;
+}
+
+.colum5 :nth-child(11) .style {
+   background-color: #963d97;
+}
+
+.colum5 :nth-child(12) .style {
+   background-color: #963d97;
+}
+
+.colum7 :nth-child(10) .style {
+   background-color: #963d97 !important;
+}
+
+.ventana {
+   position: absolute;
+   width: 300px;
+   height: 400px;
+   top: -80px;
+   left: 30px;
+   z-index: 5;
+   background-color: rgba(251, 251, 251, 0.897);
+   border-radius: 30px;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.title {
+   background-color: #963d97;
+   font-size: 20px;
+   text-align: center;
+   width: 280px;
+   color: white;
+   margin-top: 15px;
+   margin-left: 9px;
+}
+
+.sub_title {
+   font-size: 15px;
+   position: absolute;
+   left: 82px;
+}
+
+.credit_card {
+   font-size: 15px;
+   position: absolute;
+   top: 100px;
+   left: 13px;
+}
+
+.tasa {
+   font-size: 15px;
+   position: absolute;
+   top: 155px;
+   left: 115px;
+}
+
+.gastos {
+   font-size: 15px;
+   position: absolute;
+   top: 205px;
+   left: 70px;
+}
+
+.pagar {
+   font-size: 15px;
+   position: absolute;
+   top: 260px;
+   left: 110px;
+}
+
+.img {
+   width: 20%;
+   position: absolute;
+   top: 310px;
+   left: 120px;
+   cursor: pointer;
+}
+
+.txt {
+   font-size: 12px;
+   color: #9c9c9c;
+   text-align: center;
+   margin-top: 30px;
+}
+
+.txt_a {
+   font-size: 12px;
+   color: #9c9c9c;
+   text-align: center;
+   margin-top: 35px;
+}
+
+.txt_b {
+   font-size: 12px;
+   color: #9c9c9c;
+   text-align: center;
+   margin-top: 35px;
+}
+
+.txt_c {
+   font-size: 12px;
+   color: #9c9c9c;
+   text-align: center;
+   margin-top: 35px;
+}
+
+.txt_d {
+   font-size: 12px;
+   color: #9c9c9c;
+   text-align: center;
+   margin-top: 35px;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.containerformPurple {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   top: -19px;
+   height: 266px;
+   justify-content: space-between;
+}
+
+.containerinputPurple {
+   width: 95%;
+}
+
+.optionsPurple {
+   background-color: #cc9ecc;
+   border: 1px solid white;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   width: 100%;
+   height: 56px;
+   color: black;
+   padding-left: 0.85em;
+   font-family: Xatoxi Atari;
+}
+
+.okText {
+   color: white;
+   cursor: pointer;
+   position: absolute;
+   top: 353px;
+   left: 171px;
+}
+
+.containerDate {
+   display: flex;
+   justify-content: space-between;
+}
+
+#claveRemesaLabel {
+   position: absolute;
+   left: 24px;
+   top: 16px;
+}
+#accLabel {
+   position: absolute;
+   left: 24px;
+   top: 227px;
+}
+#codigoLabel {
+   position: absolute;
+   left: 24px;
+   top: 16px;
+}
+#telefonoLabel {
+   position: absolute;
+   left: 246px;
+   top: 16px;
+}
+#prepaidCardAccountLabel,
+#remittanceCardAccountLabel,
+#mpbankcodeLabel,
+#sub-locationLabel {
+   position: absolute;
+   left: 24px;
+   top: 227px;
+}
+
+#remittanceCardNumberLabel,
+#prepaidCardNumberLabel {
+   position: absolute;
+   left: 24px;
+   top: 16px;
+}
+#prefijoLabel {
+   position: absolute;
+   left: 140px;
+   top: 16px;
+}
+
+#penAction,
+#docAction,
+.labelFile,
+.buyotclist,
+.sellotclist,
+.buysellotc,
+.handCursor {
+   cursor: pointer;
+}
+
+#uploadDoc {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+   width: 20px;
+   left: 0px;
+   height: 20px;
+}
+
+#actionDoc {
+   position: absolute;
+   left: 315px;
+   top: 493px;
+   z-index: 10;
+}
+.requiredOff {
+   position: absolute;
+   width: 360px;
+   top: 466px;
+   z-index: 10;
+}
+.requiredOn {
+   position: absolute;
+   width: 300px;
+   top: 466px;
+   z-index: 10;
+}
+.selDoc {
+   margin-left: 10px;
+   margin-top: 10px;
+   width: 95%;
+   outline: none;
+}
+.options {
+   border: 1px solid white !important;
+   height: 35px !important;
+   color: rgba(0, 0, 0, 0.548);
+   padding-left: 0.85em;
+   border-radius: 5px !important;
+}
+.off {
+   display: none;
+}
+.on {
+   display: block;
+}
+
+.icon {
+   height: 20px;
+   width: 20px;
+}
+
+#claveRemesaLabel {
+   position: absolute;
+   left: 24px;
+   top: 16px;
+}
+#accLabel {
+   position: absolute;
+   left: 24px;
+   top: 227px;
+}
+#codigoLabel {
+   position: absolute;
+   left: 24px;
+   top: 16px;
+}
+#telefonoLabel {
+   position: absolute;
+   left: 246px;
+   top: 16px;
+}
+#prepaidCardAccountLabel,
+#remittanceCardAccountLabel,
+#mpbankcodeLabel,
+#sub-locationLabel {
+   position: absolute;
+   left: 24px;
+   top: 227px;
+}
+
+#remittanceCardNumberLabel,
+#prepaidCardNumberLabel {
+   position: absolute;
+   left: 24px;
+   top: 16px;
+}
+#prefijoLabel {
+   position: absolute;
+   left: 140px;
+   top: 16px;
+}
+
+#docListPenLabel {
+   position: absolute;
+   top: 27px;
+   left: 24px;
+   font-family: "Xatoxi Atari";
+}
+
+.posLabelY1{
+   position: absolute;
+   top: 16px;
+   left: 24px;
+   font-family: "Xatoxi Atari";
+}
+.posLabelY2{
+   position: absolute;
+   top: 85px;
+   left: 24px;
+   font-family: "Xatoxi Atari";
+}
+.posLabelY3,
+.locationLabelY2{
+   position: absolute;
+   top: 155px;
+   left: 24px;
+   font-family: "Xatoxi Atari";
+}
+.posLabelY4,
+.locationLabelY1{
+   position: absolute;
+   top: 225px;
+   left: 24px;
+   font-family: "Xatoxi Atari";
+}
+.posLabelY5{
+   position: absolute;
+   top: 121px;
+   left: 24px;
+   font-family: "Xatoxi Atari";
+}
+

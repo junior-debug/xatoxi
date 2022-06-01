@@ -1,0 +1,226 @@
+@import "../../components/main.css";
+@import "../../components/textField.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+@import "../../components/boxeslist.css";
+
+.makeOtc {
+  cursor: pointer;
+}
+
+#actionDoc {
+  position: absolute;
+  left: 315px;
+  top: 487px;
+}
+
+.requiredOff {
+  position: absolute;
+  width: 360px;
+  top: 470px;
+}
+
+.requiredOn {
+  position: absolute;
+  width: 300px;
+  top: 470px;
+}
+
+.selDoc {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 95%;
+  outline: none;
+}
+
+.off {
+  display: none;
+}
+
+.on {
+  display: block;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+#penAction,
+#docAction,
+.labelFile,
+.handCursor {
+  cursor: pointer;
+}
+
+#amount:focus {
+  background-color: #009ddca1;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background-color: #009ddca1;
+}
+
+.uploadDocLabel {
+  left: -12px;
+  width: 100px;
+}
+
+#uploadDoc {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  left: 0px;
+  height: 20px;
+}
+
+.font {
+  font-family: "Xatoxi Atari";
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.formOtc {
+  position: absolute;
+  top: 207px;
+  left: 0px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field-full {
+  background-color: #009ddca1;
+  height: 50px;
+  width: 97%;
+  color: black;
+  margin-top: 3px;
+  margin-left: 5px;
+  border: 1px solid white;
+  padding-left: 20px !important;
+  border-radius: 5px;
+  font-family: "Xatoxi Atari";
+}
+
+.field-full::-webkit-input-placeholder {
+  /* Edge */
+  color: black;
+}
+
+.field-full:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+
+.select-contact {
+  position: relative;
+  top: -50px;
+}
+
+.select-currency {
+  position: relative;
+  top: -40px;
+}
+
+.field-amount {
+  position: relative;
+  top: -30px;
+}
+
+.field-comment {
+  position: relative;
+  top: -20px;
+}
+
+.rotate-x {
+  transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  height: 20px;
+}
+
+.colum1 :nth-child(10) .style {
+  background-color: #009ddc;
+}
+
+.colum3 :nth-child(9) .style {
+  background-color: #009ddc;
+}
+
+.colum3 :nth-child(10) .style {
+  background-color: #009ddc;
+}
+
+.colum5 :nth-child(9) .style {
+  background-color: #009ddc;
+}
+
+.colum5 :nth-child(10) .style {
+  background-color: #009ddc;
+}
+
+.hex-zIndex {
+  z-index: 5;
+}
+
+.colum7 :nth-child(10) .style {
+  background-color: #009ddc;
+}
+
+.hexa-step-ok {
+  position: relative;
+  top: 353px;
+  width: 81px;
+  left: 138px;
+  display: inline-block;
+}
+
+#leadslistLabel {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+  z-index: 1;
+}
+
+#currencylistLabel {
+  position: absolute;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+  top: 83px;
+  z-index: 1;
+}
+
+#amountLabel {
+  position: absolute;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+  top: 145px;
+  z-index: 1;
+}
+#commentLabel {
+  position: absolute;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+  top: 210px;
+  z-index: 1;
+}
+#docListPenLabel {
+  top: 17px;
+  position: absolute;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+  z-index: 1;
+}

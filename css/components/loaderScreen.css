@@ -1,0 +1,29 @@
+.modalScreen {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   z-index: 201;
+   background-color: #00000087;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   top: 0px;
+}
+
+.dis {
+   display: none;
+}
+
+@media (max-height: 650px) {
+   .modalScreen {
+      height: 125%;
+      width: 100%;
+      position: absolute;
+      z-index: 201;
+      background-color: #00000087;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0px;
+   }
+ }

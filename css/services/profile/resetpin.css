@@ -1,0 +1,120 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+@import "../../components/xatoxiTitle.css";
+
+.div_cont {
+   font-family: Xatoxi Atari;
+   position: absolute;
+   z-index: 4;
+   top: 150px;
+   left: 65px;
+}
+
+.text {
+   font-size: 17px;
+   text-align: center;
+   color: white;
+   width: 280px;
+   position: absolute;
+   left: -20px;
+}
+
+.container {
+   position: absolute;
+   width: 60px;
+   top: 25px;
+   right: 20px;
+}
+
+.robot_azul {
+   position: absolute;
+   z-index: 4;
+   width: 65%;
+   top: 288px;
+   right: 65px;
+}
+
+.nub_az {
+   position: absolute;
+   z-index: 4;
+   width: 90%;
+   top: 19px;
+   right: 16px;
+}
+
+.handCursor {
+   cursor: pointer;
+}
+
+.colum3 :nth-child(9) .style {
+   background-color: #009ddc;
+}
+
+.colum3 .hexa:nth-child(9) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum5 :nth-child(9) .style {
+   background-color: #009ddc;
+}
+
+header h2 {
+   margin: 0 0;
+   font-size: 30px;
+   letter-spacing: 5px;
+   display: flex;
+}
+
+header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   background-color: #100f29;
+   color: #fff;
+   font-family: Xatoxi Atari;
+   position: absolute;
+   z-index: 1;
+}
+
+.inputEmail {
+   background-color: white;
+   height: 2.5em;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 1em;
+   overflow: hidden;
+   width: 100%;
+   margin-left: 18px;
+   text-align: center;
+   margin-top: -12px;
+}
+
+#btnReset {
+   background: none;
+   border: none;
+   position: absolute;
+   top: 395px;
+   left: 137px;
+   z-index: -1;
+   width: 44px;
+   text-align: center;
+   height: 30px;
+}
+
+#btnCancel {
+   background: none;
+   border: none;
+   position: absolute;
+   top: 395px;
+   left: 44px;
+   z-index: -1;
+   width: 44px;
+   text-align: center;
+   height: 30px;
+}

@@ -1,0 +1,65 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/boxeslist.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+
+.off {
+   display: none;
+}
+
+.on {
+   display: block;
+}
+
+.icon {
+   height: 20px;
+   width: 20px;
+}
+
+.font {
+   font-family: "Xatoxi Atari";
+   color: white;
+   font-weight: 600;
+   font-size: 24px;
+}
+
+.formOtc {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+
+.options {
+   border: 1px solid white !important;
+   height: 35px !important;
+   color: rgba(0, 0, 0, 0.548);
+   padding-left: 0.85em;
+   border-radius: 5px !important;
+}
+
+.colum1 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.hex-zIndex {
+   z-index: 5;
+}
+
+.colum7 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.hexa-info {
+   position: absolute;
+   top: 559px;
+   width: 81px;
+   left: 138px;
+   display: inline-block;
+}
+
+@media (max-width: 1000px) {
+   .innerBox {
+      width: 96%;
+   }
+}

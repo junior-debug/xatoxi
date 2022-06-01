@@ -1,0 +1,20 @@
+@import "font.css";
+
+label {
+   position: absolute;
+   left: 17px;
+   padding-left: 10px;
+   font-family: "Xatoxi Atari";
+   z-index: 1;
+}
+#amountLabel {
+   margin-top: 40px;
+}
+.upperAmount {
+   transition: 0.5s;
+   margin-top: 269px;
+   font-size: 16px;
+}
+#commentLabel {
+   margin-top: 50px;
+}

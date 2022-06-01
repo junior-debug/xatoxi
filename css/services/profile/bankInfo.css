@@ -1,0 +1,174 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+
+.dis {
+   display: none !important;
+}
+
+.options {
+   background-color: #fedc94;
+   border: 1px solid white;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   width: 100%;
+   height: 3.1em;
+   color: black;
+   padding-left: 0.85em;
+   font-family: Xatoxi Atari;
+}
+
+.cursor {
+   cursor: pointer;
+}
+
+.first_step {
+   background-color: #9c9c9c !important;
+}
+
+.I::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "I";
+}
+
+.II::before {
+   font-weight: negrita;
+   font-size: 25px;
+   color: white;
+   content: "II";
+}
+
+.colum1 .hexa:nth-child(10) .style {
+   background-color: #fdb827;
+}
+
+.colum3 .hexa:nth-child(1) .style {
+   background-color: #fdb827 !important;
+}
+
+.colum3 .hexa:nth-child(10) .style {
+   background-color: #fdb827;
+}
+
+.colum3 .hexa:nth-child(11) .style {
+   background-color: #fdb827;
+}
+
+.colum5 .hexa:nth-child(10) .style {
+   background-color: #fdb827;
+}
+
+.colum5 .hexa:nth-child(11) .style {
+   background-color: #fdb827;
+}
+
+.colum5 .hexa:nth-child(1) .style {
+   background-color: #9c9c9c !important;
+}
+
+.colum7 .hexa:nth-child(10) .style {
+   background-color: #fdb827;
+}
+
+.formContainera {
+   position: absolute;
+   top: 150px;
+   width: 100%;
+   height: 280px;
+   display: flex;
+   font-family: Xatoxi Atari;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 4;
+   margin-top: 80px;
+}
+
+.top {
+   margin-top: 3px;
+}
+
+.background_color {
+   background-color: #fdb827 !important;
+}
+
+.second_color {
+   background-color: #9c9c9c !important;
+}
+
+.Buttonhexa {
+   border: none;
+}
+
+.next {
+   width: 35px;
+   height: 35px;
+   position: absolute;
+   top: 367px;
+   left: 207px;
+}
+
+.containerForm {
+   width: 95%;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: -60px;
+   height: 354px;
+   justify-content: space-between;
+}
+
+.containerInput {
+   width: 100%;
+}
+
+.but {
+   background: none;
+   border: 0;
+   color: inherit;
+   /* cursor: default; */
+   font: inherit;
+   line-height: normal;
+   overflow: visible;
+   padding: 0;
+}
+
+#bankLabel{
+   position: absolute;
+   left: 15px;
+   top: 74px;
+   font-family: "Xatoxi Atari";
+}
+#cuentaLabel{
+   position: absolute;
+   left: 15px;
+   top: 136px;
+   font-family: "Xatoxi Atari";
+}
+#direccionLabel{
+   position: absolute;
+   left: 15px;
+   top: 195px;
+   font-family: "Xatoxi Atari";
+}
+#swiftLabel{
+   position: absolute;
+   left: 15px;
+   top: 257px;
+   font-family: "Xatoxi Atari";
+}
+#routingLabel{
+   position: absolute;
+   left: 15px;
+   top: 318px;
+   font-family: "Xatoxi Atari";
+}
+#bankCountryLabel{
+   position: absolute;
+   left: 15px;
+   top: 16px;
+   font-family: "Xatoxi Atari";
+}

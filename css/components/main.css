@@ -1,0 +1,157 @@
+@import "font.css";
+body {
+   background-image: url("../../img/images/webBackground.png");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.cntTopTitleBlue {
+   background-color: #009ddc;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -38px;
+   border-top-left-radius: 37px;
+   border-top-right-radius: 37px;
+   height: 50px;
+}
+.cntTopTitleDarkBlue {
+   background-color: #100f29;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -38px;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   height: 50px;
+}
+.cntTopTitlePurple {
+   background-color: #963d97;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -38px;
+   border-top-left-radius: 37px;
+   border-top-right-radius: 37px;
+   height: 50px;
+}
+.cntTopTitleYellow {
+   background-color: #fdb827;
+   display: flex;
+   justify-content: center;
+   margin-top: -38px;
+   border-top-left-radius: 37px;
+   border-top-right-radius: 37px;
+   height: 50px;
+}
+.posInfoBank {
+   position: relatvie;
+   z-index: 5;
+}
+.txtTopTitle {
+   font-size: 23px;
+   font-family: "Xatoxi Atari";
+   color: white;
+   position: absolute;
+   top: 13px;
+}
+.txtTopTitleQchat {
+   font-size: 23px;
+   font-family: "Xatoxi Atari";
+   color: #f5821f;
+   position: absolute;
+   top: 13px;
+}
+.cntTopTitleOrange {
+   background-color: #f5821f;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -38px;
+   border-top-left-radius: 37px;
+   border-top-right-radius: 37px;
+   height: 50px;
+}
+.cntTopTitleQchat {
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -38px;
+   border-top-left-radius: 37px;
+   border-top-right-radius: 37px;
+   height: 50px;
+}
+
+.cntIndexMark {
+   top: 650px;
+   left: 145px;
+}
+.cntBottomMark {
+   display: flex;
+   justify-content: center;
+   height: 46px;
+   position: absolute;
+   left: 40%;
+   top: 94%;
+}
+.textBottomMark {
+   font-family: "Xatoxi Atari";
+   color: #9c9c9c;
+   margin-top: 5px;
+   font-size: 33px;
+}
+
+.cntProfileTitle {
+   font-family: "Xatoxi Atari";
+   color: white;
+   height: 73%;
+   width: 5.5em;
+}
+.cntProfileTitle2 {
+   font-family: "Xatoxi Atari";
+   color: white;
+   height: 73%;
+   width: 6em;
+}
+
+.field-full {
+   height: 50px;
+   width: 97%;
+   color: black;
+   margin-top: 3px;
+   margin-left: 5px;
+   border: 1px solid white;
+   padding-left: 20px !important;
+   border-radius: 5px;
+   font-family: "Xatoxi Atari";
+}
+
+.field-full::-webkit-input-placeholder {
+   /* Edge */
+   color: black;
+}
+
+.field-full:-ms-input-placeholder {
+   /* Internet Explorer 10-11 */
+   color: black;
+}
+
+.field-full::placeholder {
+   color: black;
+}
+
+.btnModalPin {
+   cursor: pointer;
+   color: white;
+   border-radius: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.deleteBtn {
+   width: 60px;
+   margin-left: 8px;
+   cursor: pointer;
+}

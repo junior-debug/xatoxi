@@ -1,0 +1,362 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+@import "../../components/bankInfoBtnOk.css";
+@import "../../components/modalSumaryOp.css";
+
+.containerinputPurple {
+  width: 95%;
+}
+input ::placeholder {
+  color: white;
+}
+.containerformPurple {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: -19px;
+  height: 266px;
+  justify-content: space-between;
+}
+
+.containerformPurple:nth-child(3) {
+  height: 205px;
+  top: 20px;
+}
+
+.styletext {
+  color: white;
+}
+
+.white {
+  background-color: white !important;
+}
+
+.dis {
+  display: none !important;
+}
+
+.izquierda {
+  margin-left: -50% !important;
+}
+
+.formContainer {
+  position: absolute;
+  width: 360px;
+  font-family: Xatoxi Atari;
+  z-index: 4;
+  top: 230px;
+  height: 300px;
+}
+
+#monedasLabel {
+  position: absolute;
+  left: 17px;
+  top: 103px;
+  color: black;
+  font-family: "Xatoxi Atari";
+}
+
+.pagina {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pagina:nth-child(2) {
+  justify-content: flex-start;
+}
+
+.mid__form {
+  background-color: #cc9ecc;
+  height: 50px;
+  border: 1px solid white;
+  padding: 1em;
+  width: 49.41%;
+  padding-left: 20px;
+}
+
+.optionsPurple {
+  background-color: #cc9ecc;
+  border: 1px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 56px;
+  color: black;
+  padding-left: 0.85em;
+  font-family: Xatoxi Atari;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1 :nth-child(10) .style {
+  background-color: #963d97 !important;
+}
+
+.colum3 :nth-child(9) .style {
+  background-color: #963d97;
+}
+
+.colum3 :nth-child(11) .style {
+  background-color: #963d97 !important;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(12) .style {
+  background-color: #963d97 !important;
+  cursor: pointer;
+}
+
+.colum3 .hexa:nth-child(1) .three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.I::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "I";
+}
+
+.colum3 :nth-child(10) .style {
+  background-color: #963d97 !important;
+}
+
+.colum4 :nth-child(10) .style {
+  background-color: #963d97;
+}
+
+.colum5 .hexa:nth-child(1) .three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.II::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "II";
+}
+
+.colum5 :nth-child(9) .style {
+  background-color: #963d97;
+}
+
+.colum5 :nth-child(10) .style {
+  background-color: #963d97 !important;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(11) .style {
+  background-color: #963d97 !important;
+}
+
+.colum5 :nth-child(12) .style {
+  background-color: #963d97 !important;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(13) .style {
+  background-color: #963d97 !important;
+}
+
+.colum7 :nth-child(10) .style {
+  background-color: #963d97 !important;
+}
+
+#buttonSubmit {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 345px;
+  left: 170px;
+  z-index: -1;
+}
+
+.off {
+  display: none;
+}
+.on {
+  display: block;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+#penAction,
+#docAction,
+.labelFile,
+.buyotclist,
+.sellotclist,
+.buysellotc,
+.handCursor {
+  cursor: pointer;
+}
+
+#uploadDoc {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  left: 0px;
+  height: 20px;
+}
+
+#actionDoc {
+  position: absolute;
+  left: 315px;
+  top: 510px;
+  z-index: 10;
+}
+.requiredOff {
+  position: absolute;
+  width: 360px;
+  top: 480px;
+  z-index: 10;
+}
+.requiredOn {
+  position: absolute;
+  width: 300px;
+  top: 480px;
+  z-index: 10;
+}
+.selDoc {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 95%;
+  outline: none;
+}
+.options {
+  border: 1px solid white !important;
+  height: 35px !important;
+  color: rgba(0, 0, 0, 0.548);
+  padding-left: 0.85em;
+  border-radius: 5px !important;
+}
+.field-amount {
+  position: relative;
+  top: 180px;
+}
+#amountLabel {
+  left: 24px;
+  position: absolute;
+  top: 40px;
+  font-family: "Xatoxi Atari";
+}
+#referenciaLabel {
+  position: absolute;
+  left: 30px;
+  top: 227px;
+  font-family: "Xatoxi Atari";
+}
+#referencia_2Label {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+
+.tarjetaAbonarTDC {
+  position: absolute;
+  top: 156px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.tarjetaAbonarDptoCta {
+  position: absolute;
+  top: 156px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+
+#fechaVencYearLabel {
+  position: absolute;
+  top: 16px;
+  left: 195px;
+  font-family: "Xatoxi Atari";
+}
+#fechaVencMesLabel {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#codigoValidacionLabel {
+  position: absolute;
+  top: 165px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.labelPayTarget01 {
+  position: absolute;
+  top: 227px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.labelPayTarget02 {
+  position: absolute;
+  top: 142px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#monedasLabel {
+  position: absolute;
+  top: 102px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#pagoLabel {
+  position: absolute;
+  top: 165px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#payshapeLabel {
+  position: absolute;
+  top: 228px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.receptor01 {
+  position: absolute;
+  top: 156px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+.receptor02 {
+  position: absolute;
+  top: 227px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#tipoTarjeta_0Label {
+  position: absolute;
+  top: 227px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#tipoTarjeta_1Label {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#docListPenLabel {
+  position: absolute;
+  top: 27px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}

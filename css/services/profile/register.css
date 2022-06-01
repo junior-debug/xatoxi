@@ -1,0 +1,226 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+
+header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   background-color: #100f29;
+   color: #fff;
+   font-family: Xatoxi Atari;
+   height: 73px;
+   position: absolute;
+   z-index: 1;
+   border-top-left-radius: 39px;
+   border-top-right-radius: 39px;
+   top: 0px;
+}
+
+header h1 {
+   margin: 0 0;
+   font-size: 72px;
+   letter-spacing: 5px;
+   display: flex;
+}
+
+.X {
+   color: #009ddc;
+}
+.A {
+   color: #963d97;
+}
+.T {
+   color: #e03a3e;
+}
+.O {
+   color: #f5821f;
+}
+.X1 {
+   color: #fdb827;
+}
+.I {
+   color: #61bb46;
+}
+
+.formContainera {
+   position: absolute;
+   top: 150px;
+   width: 100%;
+   height: 350px;
+   font-family: Xatoxi Atari;
+   margin-left: 1.5%;
+}
+
+.r_dispositivo {
+   display: flex;
+   height: 37px;
+   justify-content: center;
+   width: 97%;
+   flex-direction: column;
+   align-items: center;
+}
+
+.r_dispositivo div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #4b4a5d;
+   width: 20px;
+   height: 27px;
+   margin-left: 2px;
+   padding: 2px 2px;
+   color: white;
+   margin-top: 0.3px;
+   font-size: 27px;
+   border-radius: 4px;
+}
+
+.inputForm {
+   background-color: #4b4a5d;
+   padding: 1em;
+   border: none;
+   color: white;
+   margin-top: 15px;
+   height: 50px;
+   width: 97%;
+   border-radius: 5px;
+}
+
+.options {
+   background-color: #4b4a5d;
+   padding: 1em;
+   padding-left: 0.85em;
+   border: none;
+   color: white;
+   margin-top: 15px;
+   height: 50px;
+   font-family: Xatoxi Atari;
+   width: 97%;
+   border-radius: 5px;
+}
+
+.Buttonhexa {
+   border: none;
+}
+
+.ok {
+   position: absolute !important;
+   top: 409px !important;
+   left: 158px !important;
+   justify-content: center;
+}
+
+.okb {
+   color: white !important;
+   transform: rotate(60deg);
+   -ms-transform: rotate(60deg); /* IE 9 */
+   -moz-transform: rotate(60deg); /* Firefox */
+   -webkit-transform: rotate(60deg); /* Safari and Chrome */
+   -o-transform: rotate(60deg); /* Opera */
+}
+
+.colum1 .hexa:nth-child(10) .style {
+   background-color: #100f29;
+}
+
+.colum1 .hexa:nth-child(10) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum3 .hexa:nth-child(9) .style {
+   background-color: #100f29;
+}
+
+.colum3 .hexa:nth-child(10) .style {
+   background-color: #100f29;
+}
+
+.colum4 .hexa:nth-child(10) .style {
+   background-color: #100f29;
+}
+
+.colum5 .hexa:nth-child(9) .style {
+   background-color: #100f29;
+   cursor: pointer;
+}
+
+.colum5 .hexa:nth-child(10) .style {
+   background-color: #100f29;
+   cursor: pointer;
+}
+
+.colum5 .hexa:nth-child(8) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum5 .hexa:nth-child(9) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum5 .hexa:nth-child(10) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum5 .hexa:nth-child(11) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.colum7 .hexa:nth-child(10) .style {
+   background-color: #100f29;
+}
+
+.colum7 .hexa:nth-child(10) .three {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.register {
+   font-size: 23px;
+}
+
+#paisLabel {
+   position: absolute;
+   left: 17px;
+   top: 138px;
+   color: white;
+   font-family: "Xatoxi Atari";
+}
+
+#emailLabel {
+   position: absolute;
+   left: 18px;
+   top: 72px;
+   color: white;
+   font-family: "Xatoxi Atari";
+}
+
+#prefijoLabel {
+   position: absolute;
+   left: 18px;
+   top: 202px;
+   color: white;
+   font-family: "Xatoxi Atari";
+}
+
+#movilLabel {
+   position: absolute;
+   left: 18px;
+   top: 269px;
+   color: white;
+   font-family: "Xatoxi Atari";
+}

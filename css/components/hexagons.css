@@ -1,0 +1,127 @@
+.feedHexa
+{
+position: relative;
+top: 2px;
+}
+
+.hexaContainer{
+   position: absolute;
+   top: 51px;
+   left: -1px;
+}
+
+.colum1 {
+   width: 46px;
+   height: 96%;
+   margin-top: 27px;
+   padding-top: 22px;
+   position: absolute;
+}
+.colum2 {
+   width: 46px;
+   height: 96%;
+   padding-top: 22px;
+   position: absolute;
+   left: 46px;
+}
+.colum3 {
+   width: 46px;
+   height: 96%;
+   margin-top: 27px;
+   padding-top: 22px;
+   position: absolute;
+   left: 92px;
+}
+.colum4 {
+   width: 46px;
+   height: 96%;
+   padding-top: 22px;
+   position: absolute;
+   left: 138px;
+}
+.colum5 {
+   width: 46px;
+   height: 96%;
+   margin-top: 27px;
+   padding-top: 22px;
+   position: absolute;
+   left: 184.5px;
+}
+.colum6 {
+   width: 46px;
+   height: 96%;
+   padding-top: 22px;
+   position: absolute;
+   left: 231px;
+}
+.colum7 {
+   width: 46px;
+   height: 96%;
+   margin-top: 27px;
+   padding-top: 22px;
+   font-family: Xatoxi Atari;
+   position: absolute;
+   left: 277px;
+}
+.hexa {
+   position: relative;
+   width: 81px;
+}
+.one {
+   width: 31px;
+   height: 54px;
+   margin: 0 auto;
+   border-top: 1px solid #dbdbdba8;
+   border-bottom: 1px solid #dbdbdba8;
+}
+.two {
+   position: absolute;
+   width: 31px;
+   height: 54px;
+   left: 25px;
+   top: 0;
+   transform: translate(-50%, -50%);
+   transform: rotate(60deg);
+   border-top: 1px solid #dbdbdba8;
+   border-bottom: 1px solid #dbdbdba8;
+}
+.three {
+   position: absolute;
+   width: 31px;
+   height: 54px;
+   left: 25px;
+   top: 0;
+   transform: translate(-50%, -50%);
+   transform: rotate(300deg);
+   border-top: 1px solid #dbdbdba8;
+   border-bottom: 1px solid #dbdbdba8;
+}
+.style {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.rotate {
+   transform: rotate(60deg);
+   -ms-transform: rotate(60deg); /* IE 9 */
+   -moz-transform: rotate(60deg); /* Firefox */
+   -webkit-transform: rotate(60deg); /* Safari and Chrome */
+   -o-transform: rotate(60deg); /* Opera */
+}
+.rotate1 {
+   transform: rotate(15deg);
+   -ms-transform: rotate(15deg); /* IE 9 */
+   -moz-transform: rotate(15deg); /* Firefox */
+   -webkit-transform: rotate(15deg); /* Safari and Chrome */
+   -o-transform: rotate(15deg); /* Opera */
+   width: 25px;
+}
+.emptyStar {
+   position: absolute;
+   left: 300px;
+}
+.Star {
+   position: absolute;
+   left: 307px;
+   width: 34px;
+}

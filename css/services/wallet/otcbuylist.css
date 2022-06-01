@@ -1,0 +1,253 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/boxeslist.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+
+.makeOtc {
+   cursor: pointer;
+}
+
+#actionDoc {
+   position: absolute;
+   left: 315px;
+   top: 510px;
+}
+
+.requiredOff {
+   position: absolute;
+   width: 360px;
+   top: 490px;
+}
+
+.requiredOn {
+   position: absolute;
+   width: 300px;
+   top: 490px;
+}
+
+.selDoc {
+   margin-left: 10px;
+   margin-top: 10px;
+   width: 95%;
+   outline: none;
+}
+
+.off {
+   display: none;
+}
+
+.on {
+   display: block;
+}
+
+.icon {
+   height: 20px;
+   width: 20px;
+}
+
+#penAction,
+#docAction,
+.labelFile,
+.buyotclist,
+.sellotclist,
+.buysellotc,
+.handCursor {
+   cursor: pointer;
+}
+
+#uploadDoc {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+   width: 20px;
+   left: 0px;
+   height: 20px;
+}
+
+.font {
+   font-family: "Xatoxi Atari";
+   color: white;
+   font-weight: 600;
+   font-size: 24px;
+}
+
+.formOtc {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+
+.fieldTrx {
+   margin-top: 162px;
+   margin-left: 125px;
+   width: 29% !important;
+   outline: none;
+   font-family: "Xatoxi Atari";
+}
+
+.fieldCoins {
+   margin-top: 8px;
+   margin-left: 106px;
+   width: 39% !important;
+   outline: none;
+   font-family: "Xatoxi Atari";
+}
+
+.field_form {
+   height: 35px !important;
+   border: 1px solid white;
+   padding: 1em;
+   padding-left: 20px !important;
+   border-radius: 5px;
+}
+
+.fiatAmount-left {
+   margin-top: 8px;
+   margin-left: 25px;
+   width: 40% !important;
+   outline: none;
+   font-family: "Xatoxi Atari";
+}
+
+.fiatAmount-right {
+   margin-top: 8px;
+   margin-left: 12px;
+   width: 40% !important;
+   outline: none;
+   font-family: "Xatoxi Atari";
+}
+
+.calc-cnt {
+   margin-top: 10px;
+   margin-left: 10px;
+   border-radius: 5px;
+   border: 1px solid #000000;
+   padding: 5px;
+   width: 95%;
+}
+
+.field_inner_div {
+   height: 25px !important;
+   border: 0px;
+   width: 95% !important;
+   text-align: center;
+   line-height: 10px;
+   outline: none;
+   font-family: "Xatoxi Atari";
+}
+
+.labelInput {
+   display: inline-block;
+   width: 49% !important;
+   padding-left: 5px;
+   padding-bottom: 5px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   font-family: "Xatoxi Atari";
+}
+
+.bigLabelInput {
+   display: inline-block;
+   width: 72% !important;
+   padding-left: 5px;
+   padding-bottom: 5px;
+   border-radius: 5px;
+   margin-top: 5px;
+   border: 1px solid #000;
+   font-family: "Xatoxi Atari";
+}
+
+.mini-txt {
+   font-size: 10px;
+}
+
+.label-top-input {
+   width: 90%;
+}
+
+.label-mid-input {
+   width: 30%;
+   margin: 10% 0px 10% 30px;
+   text-align: right;
+   font-weight: 600;
+   font-family: "Xatoxi Atari";
+   font-size: 20px;
+}
+
+.mid-input {
+   height: 35px !important;
+   border: none;
+   padding: 1em;
+   padding-left: 20px !important;
+   outline: none;
+   width: 50%;
+   font-family: "Xatoxi Atari";
+}
+
+.options {
+   border: 1px solid white !important;
+   height: 35px !important;
+   color: rgba(0, 0, 0, 0.548);
+   padding-left: 0.85em;
+   border-radius: 5px !important;
+}
+
+.rotate-x {
+   transform: rotate(15deg);
+   -ms-transform: rotate(15deg); /* IE 9 */
+   -moz-transform: rotate(15deg); /* Firefox */
+   -webkit-transform: rotate(15deg); /* Safari and Chrome */
+   -o-transform: rotate(15deg); /* Opera */
+   height: 20px;
+}
+
+.colum1 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.colum4 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.hex-zIndex {
+   z-index: 5;
+}
+
+.colum7 :nth-child(10) .style {
+   background-color: #009ddc;
+}
+
+.hexa-sp {
+   position: relative;
+   top: 21px;
+   width: 81px;
+   display: inline-block;
+}
+.hexa-buylist {
+   position: relative;
+   top: 128px;
+   width: 81px;
+   left: 46px;
+   display: inline-block;
+}
+.hexa-selllist {
+   position: relative;
+   top: 128px;
+   width: 81px;
+   left: 53px;
+   display: inline-block;
+}
+.hexa-buysell {
+   position: relative;
+   top: 128px;
+   width: 81px;
+   left: 60px;
+   display: inline-block;
+}
+
+@media (max-width: 1000px) {
+   .innerBox {
+      width: 96%;
+   }
+}

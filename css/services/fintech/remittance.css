@@ -1,0 +1,511 @@
+@import "../../components/main.css";
+@import "../../components/colors.css";
+@import "../../components/hexagons.css";
+@import "../../components/font.css";
+@import "../../components/bankInfoBtnOK.css";
+@import "../../components/modalSumaryOp.css";
+
+.background {
+  background-color: #963d97 !important;
+}
+
+.containerinputPurpleBeneficiary {
+  width: 109%;
+  display: flex;
+  padding-left: 7%;
+  padding-right: 7%;
+  align-items: center;
+}
+
+.handCursor {
+  cursor: pointer;
+}
+
+.white {
+  background-color: white !important;
+}
+.white-font {
+  color: white;
+}
+
+.dis {
+  display: none !important;
+}
+
+.izquierda {
+  margin-left: -50% !important;
+}
+
+.formContainer {
+  position: absolute;
+  width: 360px;
+  font-family: Xatoxi Atari;
+  z-index: 4;
+  top: 250px;
+  height: 250px;
+}
+
+.pagina {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.colum1 :nth-child(10) .style {
+  background-color: #963d97 !important;
+}
+
+.colum3 :nth-child(1) .style {
+  background-color: white !important;
+}
+
+.colum3 :nth-child(11) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(12) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(13) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(14) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 :nth-child(15) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum3 .hexa:nth-child(1) .three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.I::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "I";
+}
+
+.colum3 :nth-child(10) .style {
+  background-color: #963d97 !important;
+}
+
+.colum5 .hexa:nth-child(1) .three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.II::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "II";
+}
+
+.III::before {
+  font-weight: negrita;
+  font-size: 25px;
+  color: white;
+  content: "III";
+}
+
+.colum5 :nth-child(1) .style {
+  background-color: white !important;
+}
+
+.colum5 :nth-child(10) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(11) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(12) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(13) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(14) .style {
+  background-color: #963d97;
+  cursor: pointer;
+}
+
+.colum5 :nth-child(15) .style {
+  background-color: #963d97;
+}
+
+.colum7 :nth-child(10) .style {
+  background-color: #963d97 !important;
+}
+
+.containerformPurple {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: -19px;
+  height: 266px;
+  justify-content: space-between;
+}
+
+.containerinputPurple {
+  width: 95%;
+}
+
+.optionsPurple {
+  background-color: #cc9ecc;
+  border: 1px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 56px;
+  color: black;
+  padding-left: 0.85em;
+  font-family: Xatoxi Atari;
+}
+
+.okText {
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 324px;
+  left: 170px;
+}
+
+#penAction,
+#docAction,
+.labelFile,
+.buyotclist,
+.sellotclist,
+.buysellotc,
+.handCursor {
+  cursor: pointer;
+}
+
+#uploadDoc {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  left: 0px;
+  height: 20px;
+}
+
+#actionDoc {
+  position: absolute;
+  left: 315px;
+  top: 526px;
+  z-index: 10;
+}
+.requiredOff {
+  position: absolute;
+  width: 360px;
+  top: 500px;
+  z-index: 10;
+}
+.requiredOn {
+  position: absolute;
+  width: 300px;
+  top: 500px;
+  z-index: 10;
+}
+.selDoc {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 95%;
+  outline: none;
+}
+.options {
+  border: 1px solid white !important;
+  height: 35px !important;
+  color: rgba(0, 0, 0, 0.548);
+  padding-left: 0.85em;
+  border-radius: 5px !important;
+}
+.off {
+  display: none;
+}
+.on {
+  display: block;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.mid__form {
+  background-color: #cc9ecc;
+  height: 56px;
+  border: 1px solid white;
+  padding: 1em;
+  width: 49.41%;
+  padding-left: 20px;
+}
+
+#montoLabel,
+#selectEntregaLabel,
+#selectAccLabel,
+#selectBeneficiario_2Label {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#paisLabel,
+#formaPagoLabel,
+#selectCctypeLabel {
+  position: absolute;
+  top: 87px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#ProveedorLabel {
+  position: absolute;
+  top: 156px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+#selectDivisaLabel {
+  position: absolute;
+  top: 227px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+
+.referenceLabel01,
+.bankLabel01,
+.docId01Label01,
+.firstName01Label01,
+.middleName01Label01,
+.cardNumber01,
+.selectBeneficiarioLabel01 {
+  position: absolute;
+  left: 24px;
+  top: 16px;
+}
+
+.expDateYearLabel01 {
+  position: absolute;
+  left: 194px;
+  top: 87px;
+}
+.expDateMonthLabel01 {
+  position: absolute;
+  left: 24px;
+  top: 87px;
+}
+
+.docId02Label01,
+.firstName02Label01,
+.middleName02Label01,
+.lastName01Label01,
+.secondLastName01Label01,
+.address01Label01,
+.email01Label01 {
+  position: absolute;
+  left: 24px;
+  top: 16px;
+}
+
+.lastName02Label01,
+.secondLastName02Label01,
+.address02Label01,
+.email02Label01,
+.phone01Label01,
+.bbank01Label01,
+.accNumber02Label01 {
+  position: absolute;
+  left: 24px;
+  top: 16px;
+}
+
+.accNumber03Label01,
+.phone02Label01,
+.bbank02Label01 {
+  position: absolute;
+  left: 24px;
+  top: 16px;
+}
+
+.referenceLabel02,
+.accNumber01Label02,
+.docId01Label02,
+.firstName01Label02,
+.middleName01Label02,
+.selectBeneficiarioLabel02 {
+  position: absolute;
+  left: 24px;
+  top: 87px;
+}
+#numCuentaLabel {
+  position: absolute;
+  left: 24px;
+  top: 87px;
+}
+
+.docId02Label02,
+.firstName02Label02,
+.middleName02Label02,
+.lastName01Label02,
+.secondLastName01Label02,
+.address01Label02,
+.email01Label02 {
+  position: absolute;
+  left: 24px;
+  top: 87px;
+}
+
+.lastName02Label02,
+.secondLastName02Label02,
+.address02Label02,
+.email02Label02,
+.phone01Label02,
+.bbank01Label02,
+.accNumber02Label02 {
+  position: absolute;
+  left: 24px;
+  top: 87px;
+}
+
+.accNumber03Label02,
+.phone02Label02,
+.bbank02Label02 {
+  position: absolute;
+  left: 24px;
+  top: 87px;
+}
+
+.referenceLabel03,
+.routingLabel03,
+.docId01Label03,
+.firstName01Label03,
+.middleName01Label03,
+.selectBeneficiarioLabel03 {
+  position: absolute;
+  left: 24px;
+  top: 156px;
+}
+
+.docId02Label03,
+.firstName02Label03,
+.middleName02Label03,
+.lastName01Label03,
+.secondLastName01Label03,
+.address01Label03,
+.email01Label03 {
+  position: absolute;
+  left: 24px;
+  top: 156px;
+}
+.lastName02Label03,
+.secondLastName02Label03,
+.address02Label03,
+.email02Label03,
+.phone01Label03,
+.bbank01Label03,
+.accNumber02Label03 {
+  position: absolute;
+  left: 24px;
+  top: 156px;
+}
+
+.accNumber03Label03,
+.phone02Label03,
+.bbank02Label03 {
+  position: absolute;
+  left: 24px;
+  top: 156px;
+}
+
+.referenceLabel04,
+.docId01Label04,
+.firstName01Label04,
+.middleName01Label04,
+.validationCodeLabel01,
+.selectBeneficiarioLabel04 {
+  position: absolute;
+  left: 24px;
+  top: 227px;
+}
+
+.docId02Label04,
+.firstName02Label04,
+.middleName02Label04,
+.lastName01Label04,
+.secondLastName01Label04,
+.address01Label04,
+.email01Label04 {
+  position: absolute;
+  left: 24px;
+  top: 227px;
+}
+
+.lastName02Label04,
+.secondLastName02Label04,
+.address02Label04,
+.email02Label04,
+.phone01Label04,
+.bbank01Label04,
+.accNumber02Label04 {
+  position: absolute;
+  left: 24px;
+  top: 227px;
+}
+
+.accNumber03Label04,
+.phone02Label04,
+.bbank02Label04 {
+  position: absolute;
+  left: 24px;
+  top: 227px;
+}
+
+.bbank02Label05 {
+  position: absolute;
+  left: 24px;
+  top: 120px;
+}
+
+.bbank01Label05 {
+  position: absolute;
+  left: 24px;
+  top: 122px;
+}
+
+#docListPenLabel {
+  position: absolute;
+  top: 27px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
+
+.referenceLabel05 {
+  position: absolute;
+  top: 120px;
+  left: 24px;
+  font-family: "Xatoxi Atari";
+}
